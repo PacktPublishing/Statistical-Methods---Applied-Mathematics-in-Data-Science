@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="react"/>
+<node id="fbjs"/>
+<node id="core-js"/>
+<node id="isomorphic-fetch"/>
+<node id="node-fetch"/>
+<node id="encoding"/>
+<node id="is-stream"/>
+<node id="whatwg-fetch"/>
+<node id="loose-envify"/>
+<node id="js-tokens"/>
+<node id="object-assign"/>
+<node id="promise"/>
+<node id="asap"/>
+<node id="setimmediate"/>
+<node id="ua-parser-js"/>
+<node id="prop-types"/>
+<edge source="react" target="fbjs"/>
+<edge source="react" target="loose-envify"/>
+<edge source="react" target="object-assign"/>
+<edge source="react" target="prop-types"/>
+<edge source="fbjs" target="core-js"/>
+<edge source="fbjs" target="isomorphic-fetch"/>
+<edge source="fbjs" target="loose-envify"/>
+<edge source="fbjs" target="object-assign"/>
+<edge source="fbjs" target="promise"/>
+<edge source="fbjs" target="setimmediate"/>
+<edge source="fbjs" target="ua-parser-js"/>
+<edge source="isomorphic-fetch" target="node-fetch"/>
+<edge source="isomorphic-fetch" target="whatwg-fetch"/>
+<edge source="node-fetch" target="encoding"/>
+<edge source="node-fetch" target="is-stream"/>
+<edge source="loose-envify" target="js-tokens"/>
+<edge source="promise" target="asap"/>
+<edge source="prop-types" target="fbjs"/>
+<edge source="prop-types" target="loose-envify"/>
+<edge source="prop-types" target="object-assign"/>
+</graph></graphml>
